@@ -45,6 +45,18 @@ border-radius:10px;padding:16px 18px;margin:14px 0;box-shadow:var(--shadow);}
 .fill{background:#fffdf5;border:1px dashed var(--wood);border-radius:10px;
 padding:16px 18px;margin:14px 0;}
 .fill p{margin:0;line-height:2.3;}
+figure.illust{margin:18px auto 6px;text-align:center;}
+figure.illust img{max-width:min(300px,72%);height:auto;}
+figure.illust.wide img{max-width:100%;border-radius:12px;border:1px solid var(--border);}
+figure.illust.small img{max-width:140px;}
+figure.illust figcaption{color:var(--muted);font-size:.8rem;margin-top:2px;}
+.sign{display:flex;align-items:center;gap:14px;justify-content:flex-end;margin-top:22px;}
+.sign img{width:84px;height:auto;}
+.sign p{margin:0;color:var(--muted);font-size:.9rem;text-align:right;}
+ol.steps{margin:14px 0 14px 4px;list-style:none;counter-reset:st;}
+ol.steps li{counter-increment:st;position:relative;padding:8px 0 8px 52px;margin:6px 0;}
+ol.steps li::before{content:counter(st);position:absolute;left:0;top:6px;width:36px;height:36px;
+border-radius:50%;background:var(--green);color:#fff;font-weight:bold;text-align:center;line-height:36px;}
 .meta{color:var(--muted);font-size:.8rem;margin-top:6px;}
 .back{display:inline-block;margin:30px 0 0;color:var(--muted);font-size:.9rem;}
 .lockbox{background:var(--card);border:2px dashed var(--green);border-radius:14px;
@@ -56,18 +68,22 @@ color:var(--muted);font-size:.76rem;text-align:center;letter-spacing:.05em;}
 </style>
 </head><body><div class="wrap">
 <header class="site"><h1>🦉 老後資金の止まり木</h1><p>公式LINE限定・特典のとまり木</p></header>
-<article><h1>🎁 7月の封筒「見方ひと目表」＆ 手取りの計算メモ</h1><p class="meta">2026-07-13 ｜ 対象動画: 【7月に届く】年金の手取りが決まる封筒…約1割消える「天引き」の正体と守る3つの手 <span class="badge live">配布中</span></p><p>よく来たな。約束の物を渡す。<br>動画の内容を、封筒の前で使える形にまとめた。<b>印刷して、封筒と一緒に置いておくとよい。</b></p>
+<article><h1>🎁 7月の封筒「見方ひと目表」＆ 手取りの計算メモ</h1><p class="meta">2026-07-13 ｜ 対象動画: 【7月に届く】年金の手取りが決まる封筒…約1割消える「天引き」の正体と守る3つの手 <span class="badge live">配布中</span></p><figure class="illust"><img src="../img/2026-07-13/fuuto.png" alt="7月に届く保険料の封筒" loading="lazy"><figcaption>7月ごろ届く「保険料のお知らせ」の封筒</figcaption></figure>
+<p>よく来たな。約束の物を渡す。<br>動画の内容を、<b>封筒の前でそのまま使える形</b>にまとめた。印刷して封筒と一緒に置いておくとよい。</p>
 <hr>
 <h2>✅ 封筒の「見方ひと目表」——見るのは3つの数字だけ</h2>
-<div class="check"><p><b>□ ① 年間保険料</b><br>「年間保険料額」「年額」などの欄を探す。<b>今年1年で払う合計</b>がこれだ。<br>（国民健康保険・後期高齢者医療・介護保険で、それぞれ封筒が別のことがある。全部足してよい）</p></div>
+<figure class="illust small"><img src="../img/2026-07-13/shorui.png" alt="数字がびっしりの通知書" loading="lazy"><figcaption>開くとこうなっている。ぜんぶ読まなくてよい</figcaption></figure>
+<div class="check"><p><b>□ ① 年間保険料</b><br>「年間保険料額」「年額」などの欄を探す。<b>今年1年で払う合計</b>がこれだ。<br>（国民健康保険・後期高齢者医療・介護保険で、封筒が別のことがある。全部足してよい）</p></div>
 <div class="check"><p><b>□ ② 引かれる時期と額</b><br>「仮徴収」＝<b>4月・6月・8月</b>（去年と同じ額での先払い）。<br>「本徴収」＝<b>10月・12月・2月</b>（決まった年額から先払い分を引いた残り）。<br>つまり――<b>今年の値上げが振込に現れるのは、10月15日から</b>だ。</p></div>
 <div class="check"><p><b>□ ③ 去年との差</b><br>去年の通知書が残っていれば並べる。無ければ「本徴収の欄が仮徴収より大きく増えていないか」だけ見る。<br>去年、収入が動いた人（退職金・株の利益・働いた給料）は、ここが跳ねやすい。</p></div>
 <hr>
 <h2>✎ 手取りの計算メモ（書き込み式）</h2>
+<figure class="illust small"><img src="../img/2026-07-13/memo.png" alt="3つの数字をメモする" loading="lazy"></figure>
 <div class="fill"><p>✎ <b>A. 年金の額面（ねんきん定期便・振込通知書の額）</b> ＝ 月 ＿＿＿＿＿＿ 円<br>✎ <b>B. 年間保険料の合計（封筒①の数字を全部足す）</b> ＝ 年 ＿＿＿＿＿＿ 円 → <b>÷12</b> ＝ 月 ＿＿＿＿＿＿ 円<br>✎ <b>C. 税金（住民税・所得税。6月の通知や振込通知書から）</b> ＝ 月 ＿＿＿＿＿＿ 円（無い人は0）<br>✎ <b>D. あなたの手取り ＝ A − B − C</b> ＝ 月 ＿＿＿＿＿＿ 円</p></div>
 <p>物差し：<b>手取りは額面の85〜90%が目安</b>（約1割は先に消える）。<br>年金が少ない人は税が0になり、9割以上残ることも多い。Dがこの帯に入っていれば、計算はだいたい合っている。</p>
 <hr>
 <h2>🍂 10月の「答え合わせ欄」（動画では話していないおまけ）</h2>
+<figure class="illust"><img src="../img/2026-07-13/pair.png" alt="はがきと封筒で答え合わせ" loading="lazy"><figcaption>6月のはがき×7月の封筒×10月の通帳で答え合わせ</figcaption></figure>
 <p>10月15日の振込があったら、通帳を見てここに書く。</p>
 <div class="fill"><p>✎ 10月15日に実際に振り込まれた額 ＝ ＿＿＿＿＿＿ 円<br>✎ 上のDとの差 ＝ ＿＿＿＿＿＿ 円</p></div>
 <p>差がほぼ0なら、あなたの読みは合っている。もう10月に驚くことはない。<br>大きくズレたら、封筒の「本徴収」の欄をもう一度見るか、市区町村の窓口で聞けばよい。</p>
@@ -76,10 +92,10 @@ color:var(--muted);font-size:.76rem;text-align:center;letter-spacing:.05em;}
 <table><tr><th>項目</th><th>数字</th></tr><tr><td>手取りの目安</td><td>額面の <b>85〜90%</b></td></tr><tr><td>介護保険料（65歳以上・全国平均）</td><td>月 <b>6,225円</b></td></tr><tr><td>75歳からの保険料（2年ぶり改定）</td><td>月 7,411円 → <b>7,989円</b>（+578円）</td></tr><tr><td>子ども・子育て支援金（今年から新登場）</td><td>年 <b>約2,300円</b> の上乗せ</td></tr><tr><td>値上げが振込に現れる日</td><td><b>10月15日</b></td></tr></table>
 <hr>
 <h2>🦉 手取りを守る3つの手（動画のまとめ）</h2>
-<ul><li>手①：封筒の年間保険料を12で割り、<b>月いくら消えるか</b>を知る（上のメモのB）</li><li>手②：去年収入が動いた人は、<b>本徴収の欄</b>を今のうちに見る（一年だけの山なら怖くない）</li><li>手③：口座振替に変えると、<b>払った家族の控除</b>にできて世帯の税が下がる場合がある（損になる場合もある＝市区町村の窓口で確認してから）</li></ul>
+<ol class="steps"><li>封筒の年間保険料を12で割り、<b>月いくら消えるか</b>を知る（上のメモのB）</li><li>去年収入が動いた人は、<b>本徴収の欄</b>を今のうちに見る（一年だけの山なら怖くない）</li><li>口座振替に変えると、<b>払った家族の控除</b>にできて世帯の税が下がる場合がある（損になる場合もある＝市区町村の窓口で確認してから）</li></ol>
 <hr>
 <p>⚠️ 本資料は教育目的の一般的な情報だ。保険料・税金の額は、自治体・世帯構成・前年の所得で変わる（表の数字は2026年度の全国平均や目安）。実際の金額と手続きは、届いた通知書と市区町村の窓口・年金事務所・税務署で確かめてほしい。</p>
-<p>次の贈り物も、このLINEで届ける。それまで、よい止まり木を。<br>— フク先生（老後資金の止まり木）</p></article><a class="back" href="../index.html">← 特典ライブラリ一覧へ</a><footer>本ページは公式LINEの登録者限定だ。URLの転載は控えてくれ。<br>
+<div class="sign"><img src="../img/2026-07-13/fuku.png" alt=""><p>次の贈り物も、このLINEで届ける。それまで、よい止まり木を。<b>— フク先生（老後資金の止まり木）</b></p></div></article><a class="back" href="../index.html">← 特典ライブラリ一覧へ</a><footer>本ページは公式LINEの登録者限定だ。URLの転載は控えてくれ。<br>
 本資料は教育目的の一般的情報で、保険料・税金の額は自治体・世帯構成・前年の所得で変わる。<br>
 実際の金額と手続きは、届いた通知書と市区町村の窓口・年金事務所・税務署で確認してほしい。</footer>
 </div></body></html>

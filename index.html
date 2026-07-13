@@ -45,6 +45,18 @@ border-radius:10px;padding:16px 18px;margin:14px 0;box-shadow:var(--shadow);}
 .fill{background:#fffdf5;border:1px dashed var(--wood);border-radius:10px;
 padding:16px 18px;margin:14px 0;}
 .fill p{margin:0;line-height:2.3;}
+figure.illust{margin:18px auto 6px;text-align:center;}
+figure.illust img{max-width:min(300px,72%);height:auto;}
+figure.illust.wide img{max-width:100%;border-radius:12px;border:1px solid var(--border);}
+figure.illust.small img{max-width:140px;}
+figure.illust figcaption{color:var(--muted);font-size:.8rem;margin-top:2px;}
+.sign{display:flex;align-items:center;gap:14px;justify-content:flex-end;margin-top:22px;}
+.sign img{width:84px;height:auto;}
+.sign p{margin:0;color:var(--muted);font-size:.9rem;text-align:right;}
+ol.steps{margin:14px 0 14px 4px;list-style:none;counter-reset:st;}
+ol.steps li{counter-increment:st;position:relative;padding:8px 0 8px 52px;margin:6px 0;}
+ol.steps li::before{content:counter(st);position:absolute;left:0;top:6px;width:36px;height:36px;
+border-radius:50%;background:var(--green);color:#fff;font-weight:bold;text-align:center;line-height:36px;}
 .meta{color:var(--muted);font-size:.8rem;margin-top:6px;}
 .back{display:inline-block;margin:30px 0 0;color:var(--muted);font-size:.9rem;}
 .lockbox{background:var(--card);border:2px dashed var(--green);border-radius:14px;
