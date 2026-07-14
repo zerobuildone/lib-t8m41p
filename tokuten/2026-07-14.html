@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ja"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>非課税かんたん判定シート（211万円の壁・1分判定フロー）</title>
+<style>
+:root{--green:#3c6b1d;--green-deep:#2c4f15;--wood:#8a5a2b;--bg:#faf7ef;--card:#ffffff;--text:#2b2416;
+--muted:#84775e;--border:#e5dcc6;--shadow:0 1px 4px rgba(60,45,10,.08);}
+*{box-sizing:border-box;margin:0;padding:0;}
+html{font-size:17px;}
+body{background:var(--bg);color:var(--text);line-height:1.95;
+font-family:"Hiragino Kaku Gothic ProN","Yu Gothic Medium","Yu Gothic","Meiryo",sans-serif;}
+.wrap{max-width:680px;margin:0 auto;padding:0 18px 64px;}
+header.site{text-align:center;padding:26px 0 18px;border-bottom:2px solid var(--green);margin-bottom:8px;}
+header.site h1{font-size:1.35rem;color:var(--green-deep);letter-spacing:.12em;font-weight:800;}
+header.site p{color:var(--muted);font-size:.82rem;margin-top:4px;letter-spacing:.1em;}
+a{color:var(--green-deep);}
+.lead{color:var(--muted);font-size:.92rem;margin:20px 2px 6px;}
+.month{font-size:.95rem;color:var(--green-deep);margin:26px 2px 4px;font-weight:bold;
+border-left:4px solid var(--green);padding-left:10px;}
+.card{display:block;background:var(--card);border:1px solid var(--border);border-radius:12px;
+padding:18px 20px;margin:12px 0;text-decoration:none;box-shadow:var(--shadow);}
+a.card:active{background:#f3f7ea;}
+.card .date{color:var(--muted);font-size:.8rem;letter-spacing:.06em;}
+.card h2{color:var(--text);font-size:1.12rem;margin:6px 0 6px;line-height:1.6;}
+.card .video{color:var(--muted);font-size:.84rem;display:block;}
+.badge{display:inline-block;font-size:.74rem;font-weight:bold;padding:3px 12px;border-radius:999px;
+margin-left:8px;vertical-align:middle;}
+.badge.live{background:#e7f3dd;color:#3c6b1d;}
+.badge.closed{background:#ececec;color:#8a8a8a;}
+.badge.limited{background:#fdeeca;color:#93610a;}
+article h1{color:var(--green-deep);font-size:1.35rem;margin:26px 0 8px;line-height:1.6;font-weight:800;}
+article h2{color:var(--green-deep);font-size:1.1rem;margin:32px 0 12px;
+border-left:4px solid var(--green);padding-left:12px;}
+article p{margin:14px 0;}
+article hr{border:none;border-top:1px solid var(--border);margin:28px 0;}
+article table{width:100%;border-collapse:collapse;margin:16px 0;font-size:.95rem;background:var(--card);}
+article th,article td{border:1px solid var(--border);padding:10px 12px;text-align:left;}
+article th{background:#edf3e2;color:var(--green-deep);}
+article ul{margin:14px 0 14px 22px;}
+.check{background:var(--card);border:1px solid var(--border);border-left:5px solid var(--green);
+border-radius:10px;padding:16px 18px;margin:14px 0;box-shadow:var(--shadow);}
+.check p{margin:0;}
+.fill{background:#fffdf5;border:1px dashed var(--wood);border-radius:10px;
+padding:16px 18px;margin:14px 0;}
+.fill p{margin:0;line-height:2.3;}
+figure.illust{margin:18px auto 6px;text-align:center;}
+figure.illust img{max-width:min(300px,72%);height:auto;}
+figure.illust.wide img{max-width:100%;border-radius:12px;border:1px solid var(--border);}
+figure.illust.small img{max-width:140px;}
+figure.illust figcaption{color:var(--muted);font-size:.8rem;margin-top:2px;}
+.sign{display:flex;align-items:center;gap:14px;justify-content:flex-end;margin-top:22px;}
+.sign img{width:84px;height:auto;}
+.sign p{margin:0;color:var(--muted);font-size:.9rem;text-align:right;}
+ol.steps{margin:14px 0 14px 4px;list-style:none;counter-reset:st;}
+ol.steps li{counter-increment:st;position:relative;padding:8px 0 8px 52px;margin:6px 0;}
+ol.steps li::before{content:counter(st);position:absolute;left:0;top:6px;width:36px;height:36px;
+border-radius:50%;background:var(--green);color:#fff;font-weight:bold;text-align:center;line-height:36px;}
+.meta{color:var(--muted);font-size:.8rem;margin-top:6px;}
+.back{display:inline-block;margin:30px 0 0;color:var(--muted);font-size:.9rem;}
+.lockbox{background:var(--card);border:2px dashed var(--green);border-radius:14px;
+text-align:center;padding:44px 22px;margin:30px 0;}
+.lockbox .lockicon{font-size:2.4rem;}
+.lockbox p{margin:12px 0 0;font-size:1.02rem;}
+footer{margin-top:48px;padding-top:18px;border-top:1px solid var(--border);
+color:var(--muted);font-size:.76rem;text-align:center;letter-spacing:.05em;}
+</style>
+</head><body><div class="wrap">
+<header class="site"><h1>🦉 老後資金の止まり木</h1><p>公式LINE限定・特典のとまり木</p></header>
+<article><h1>🎁 非課税かんたん判定シート（211万円の壁・1分判定フロー）</h1><p class="meta">2026-07-14 ｜ 対象動画: 【年金211万円の壁】1万円の差で病院代・給付金まで逆転…住民税0円の「見えない線」と1分判定法 <span class="badge live">配布中</span></p><figure class="illust"><img src="../img/2026-07-14/kabe.png" alt="住民税0円の境界線＝壁と2つの年金袋" loading="lazy"><figcaption>線のどっち側かで、使えるお金が変わる</figcaption></figure>
+<p>よく来たな。約束の物を渡す。<br>動画の「住民税0円の見えない線」を、<b>紙1枚で自分の側が分かる形</b>にまとめた。<br>1月の「源泉徴収票」か、6月の「年金振込通知書」を手元に置いて使うとよい。</p>
+<hr>
+<h2>✅ 1分でできる判定フロー</h2>
+<figure class="illust small"><img src="../img/2026-07-14/dentaku.png" alt="年金の年額を電卓で確かめる" loading="lazy"></figure>
+<p><b>STEP1｜年金の年額を確かめる</b><br>1月に届く「源泉徴収票」の<b>「支払金額」の欄</b>＝あなたの年金の年額だ。<br>（6月の「年金振込通知書」でも分かる）<br>⚠️ <b>遺族年金・障害年金は数えない</b>（税金の計算に入らない決まり。思ったより内側の人は多い）</p>
+<p><b>STEP2｜年金のほかに「去年の収入」がなかったか思い出す</b><br>土地や建物を売った／株の利益・配当を確定申告した／保険の一時金を受け取った――<br><b>ひとつでもあれば、それも足して見られる</b>。当てはまる人は下の「うっかり線越えチェック」へ。</p>
+<p><b>STEP3｜下の早見表の線と比べる</b><br>線より下なら、あなたは<b>内側（住民税0円）の可能性が高い</b>。<br>ぎりぎりの人・扶養ありの人・STEP2に当てはまった人は、<b>市区町村の窓口で確認</b>すれば確実だ。</p>
+<hr>
+<h2>📏 線の早見表（2026年度・大都市のめやす）</h2>
+<table><tr><th>あなた</th><th>線（年金の年額）</th></tr><tr><td>65歳以上・ひとり暮らし</td><td><b>155万円以下</b></td></tr><tr><td>65歳以上・夫婦（配偶者を扶養）</td><td><b>211万円以下</b>（相手も155万円以下が条件）</td></tr><tr><td>60〜64歳・ひとり暮らし</td><td><b>105万円以下</b>（割引券が60万円のため）</td></tr></table>
+<p>線の正体＝<b>所得45万円以下なら住民税0円</b>。年金には「見えない割引券」（65歳以上110万円・64歳まで60万円）があるので、155万−110万＝所得45万円、が単身の線になる。</p>
+<hr>
+<h2>⚠️ うっかり線越えチェック（当てはまったら役所で確認）</h2>
+<figure class="illust"><img src="../img/2026-07-14/shinsou.png" alt="線の判定はぜんぶの所得" loading="lazy"><figcaption>判定は「年金＋ぜんぶの所得」で見られる</figcaption></figure>
+<div class="check"><p><b>□ 去年、土地・建物を売った</b><br>→ 今年だけ線の外側になる。<b>判定は毎年やり直し</b>なので、収入が戻れば来年は内側へ戻る見込み（「一年だけの山」）。</p></div>
+<div class="check"><p><b>□ 株の利益・配当を確定申告した</b><br>→ 税金が少し戻っても、<b>所得に足されて線を越える</b>ことがある。先に税金が引かれる口座（源泉徴収あり）なら、申告しない道もある。損得は人それぞれ＝税務署か役所で確認してから。</p></div>
+<div class="check"><p><b>□ 年金を繰下げで増やした（またはこれから増やす）</b><br>→ 増えた年金が線を越える場合がある。ただし<b>年金の増えが勝つ場合も多い</b>。給付金のために年金を減らすのは本末転倒だ。</p></div>
+<div class="check"><p><b>□ 保険の満期金・解約返戻金を受け取った</b><br>→ 一時所得として判定に入る場合がある。</p></div>
+<div class="check"><p><b>□ 【動画では話していないおまけ】会社からの退職金（一時金）</b><br>→ 原則、<b>この判定には入らない</b>（税金を先に精算する別ルートのため）。ただし受け取り方で変わる場合があるので、退職の年は窓口で確かめると安心だ。</p></div>
+<div class="check"><p><b>□ 同居の家族に税金を払っている人がいる</b><br>→ あなた自身が0円でも、給付金の「非課税世帯」からは外れる（世帯<b>全員</b>が0円が条件）。</p></div>
+<hr>
+<h2>🎁 内側に入ると、こう変わる（動画のまとめ）</h2>
+<figure class="illust small"><img src="../img/2026-07-14/setai.png" alt="世帯の壁＝屋根の下の全員で決まる" loading="lazy"></figure>
+<table><tr><th>なに</th><th>どうなる</th></tr><tr><td>病院代の上限（ひと月）</td><td>70歳以上 <b>25,700円</b>でストップ（2026年8月からの額）</td></tr><tr><td>入院の食事代</td><td>1食550円 → <b>270円</b></td></tr><tr><td>介護保険料</td><td>段階が下がる（月2千円安い例）</td></tr><tr><td>国保などの保険料</td><td>所得に応じ 最大<b>7割引</b></td></tr><tr><td>町の給付金</td><td>対象になりやすい（数千円〜3万円の例）</td></tr></table>
+<hr>
+<h2>🗾 町タイプ別の線（動画では「大都市の線」だけ話した・おまけ）</h2>
+<table><tr><th>町のタイプ</th><th>単身の線</th><th>夫婦の線</th></tr><tr><td>大都市（1級地）</td><td>155万円</td><td>211万円</td></tr><tr><td>中くらいの市（2級地）</td><td>約151.5万円</td><td>約202万円</td></tr><tr><td>町村部など（3級地）</td><td>約148万円</td><td>約193万円</td></tr></table>
+<p>自分の町がどのタイプかは、<b>役所に聞くのがいちばん確実</b>（「住民税の非課税基準を教えてください」でよい）。</p>
+<hr>
+<p>⚠️ 本資料は教育目的の一般的な情報だ。住民税非課税の基準は、自治体（級地区分）・世帯構成・前年の所得で変わる（表の数字は2026年度・大都市中心のめやす）。給付金の有無・金額は自治体の判断で異なる。確定申告や年金の受け取り方の損得も人により違うため、実際の判定と手続きは市区町村の窓口・税務署で確かめてほしい。</p>
+<div class="sign"><img src="../img/2026-07-14/fuku.png" alt=""><p>線は、知っている者の味方だ。次の贈り物も、このLINEで届ける。<b>— フク先生（老後資金の止まり木）</b></p></div></article><a class="back" href="../index.html">← 特典ライブラリ一覧へ</a><footer>本ページは公式LINEの登録者限定だ。URLの転載は控えてくれ。<br>
+本資料は教育目的の一般的情報で、保険料・税金の額は自治体・世帯構成・前年の所得で変わる。<br>
+実際の金額と手続きは、届いた通知書と市区町村の窓口・年金事務所・税務署で確認してほしい。</footer>
+</div></body></html>
