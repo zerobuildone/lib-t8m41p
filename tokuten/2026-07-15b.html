@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ja"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>遺族年金ざっくり計算シート（書き込み式）＋手続き3つのチェック表</title>
+<style>
+:root{--green:#3c6b1d;--green-deep:#2c4f15;--wood:#8a5a2b;--bg:#faf7ef;--card:#ffffff;--text:#2b2416;
+--muted:#84775e;--border:#e5dcc6;--shadow:0 1px 4px rgba(60,45,10,.08);}
+*{box-sizing:border-box;margin:0;padding:0;}
+html{font-size:17px;}
+body{background:var(--bg);color:var(--text);line-height:1.95;
+font-family:"Hiragino Kaku Gothic ProN","Yu Gothic Medium","Yu Gothic","Meiryo",sans-serif;}
+.wrap{max-width:680px;margin:0 auto;padding:0 18px 64px;}
+header.site{text-align:center;padding:26px 0 18px;border-bottom:2px solid var(--green);margin-bottom:8px;}
+header.site h1{font-size:1.35rem;color:var(--green-deep);letter-spacing:.12em;font-weight:800;}
+header.site p{color:var(--muted);font-size:.82rem;margin-top:4px;letter-spacing:.1em;}
+a{color:var(--green-deep);}
+.lead{color:var(--muted);font-size:.92rem;margin:20px 2px 6px;}
+.month{font-size:.95rem;color:var(--green-deep);margin:26px 2px 4px;font-weight:bold;
+border-left:4px solid var(--green);padding-left:10px;}
+.card{display:block;background:var(--card);border:1px solid var(--border);border-radius:12px;
+padding:18px 20px;margin:12px 0;text-decoration:none;box-shadow:var(--shadow);}
+a.card:active{background:#f3f7ea;}
+.card .date{color:var(--muted);font-size:.8rem;letter-spacing:.06em;}
+.card h2{color:var(--text);font-size:1.12rem;margin:6px 0 6px;line-height:1.6;}
+.card .video{color:var(--muted);font-size:.84rem;display:block;}
+.badge{display:inline-block;font-size:.74rem;font-weight:bold;padding:3px 12px;border-radius:999px;
+margin-left:8px;vertical-align:middle;}
+.badge.live{background:#e7f3dd;color:#3c6b1d;}
+.badge.closed{background:#ececec;color:#8a8a8a;}
+.badge.limited{background:#fdeeca;color:#93610a;}
+article h1{color:var(--green-deep);font-size:1.35rem;margin:26px 0 8px;line-height:1.6;font-weight:800;}
+article h2{color:var(--green-deep);font-size:1.1rem;margin:32px 0 12px;
+border-left:4px solid var(--green);padding-left:12px;}
+article p{margin:14px 0;}
+article hr{border:none;border-top:1px solid var(--border);margin:28px 0;}
+article table{width:100%;border-collapse:collapse;margin:16px 0;font-size:.95rem;background:var(--card);}
+article th,article td{border:1px solid var(--border);padding:10px 12px;text-align:left;}
+article th{background:#edf3e2;color:var(--green-deep);}
+article ul{margin:14px 0 14px 22px;}
+.check{background:var(--card);border:1px solid var(--border);border-left:5px solid var(--green);
+border-radius:10px;padding:16px 18px;margin:14px 0;box-shadow:var(--shadow);}
+.check p{margin:0;}
+.fill{background:#fffdf5;border:1px dashed var(--wood);border-radius:10px;
+padding:16px 18px;margin:14px 0;}
+.fill p{margin:0;line-height:2.3;}
+figure.illust{margin:18px auto 6px;text-align:center;}
+figure.illust img{max-width:min(300px,72%);height:auto;}
+figure.illust.wide img{max-width:100%;border-radius:12px;border:1px solid var(--border);}
+figure.illust.small img{max-width:140px;}
+figure.illust figcaption{color:var(--muted);font-size:.8rem;margin-top:2px;}
+.sign{display:flex;align-items:center;gap:14px;justify-content:flex-end;margin-top:22px;}
+.sign img{width:84px;height:auto;}
+.sign p{margin:0;color:var(--muted);font-size:.9rem;text-align:right;}
+ol.steps{margin:14px 0 14px 4px;list-style:none;counter-reset:st;}
+ol.steps li{counter-increment:st;position:relative;padding:8px 0 8px 52px;margin:6px 0;}
+ol.steps li::before{content:counter(st);position:absolute;left:0;top:6px;width:36px;height:36px;
+border-radius:50%;background:var(--green);color:#fff;font-weight:bold;text-align:center;line-height:36px;}
+.meta{color:var(--muted);font-size:.8rem;margin-top:6px;}
+.back{display:inline-block;margin:30px 0 0;color:var(--muted);font-size:.9rem;}
+.lockbox{background:var(--card);border:2px dashed var(--green);border-radius:14px;
+text-align:center;padding:44px 22px;margin:30px 0;}
+.lockbox .lockicon{font-size:2.4rem;}
+.lockbox p{margin:12px 0 0;font-size:1.02rem;}
+footer{margin-top:48px;padding-top:18px;border-top:1px solid var(--border);
+color:var(--muted);font-size:.76rem;text-align:center;letter-spacing:.05em;}
+</style>
+</head><body><div class="wrap">
+<header class="site"><h1>🦉 老後資金の止まり木</h1><p>公式LINE限定・特典のとまり木</p></header>
+<article><h1>🎁 遺族年金ざっくり計算シート（書き込み式）＋手続き3つのチェック表</h1><p class="meta">2026-07-15 ｜ 対象動画: 【夫婦は今すぐ確認】夫が亡くなると妻の年金はいくら？…残るのは「ふたりの6割」・申請しないと1円も出ません <span class="badge live">配布中</span></p><figure class="illust"><img src="../img/2026-07-15b/yunomi.png" alt="縁側の湯のみふたつ" loading="lazy"><figcaption>ひとりの日の暮らしは、ふたりが元気なうちに確かめておく</figcaption></figure>
+<p>よく来たな。約束の物を渡す。<br>動画の「2階×4分の3＋自分の年金」を、<b>書き込むだけで“わが家の目安”が出る紙1枚</b>にした。<br>ねんきん定期便（または6月の振込通知書）を1枚だけ手元に置いて、上から埋めてほしい。</p>
+<hr>
+<h2>✎ 遺族年金ざっくり計算シート（書き込み式）</h2>
+<figure class="illust small"><img src="../img/2026-07-15b/keisan.png" alt="定期便と電卓" loading="lazy"></figure>
+<p>まず、夫（先に旅立つと想定する側）の<b>「老齢厚生年金（報酬比例部分）」の行</b>を探す。<br>それが動画で言った<b>「2階部分」</b>だ。</p>
+<div class="fill"><p>✎ <b>A. 夫の2階部分（老齢厚生年金・報酬比例部分の額）</b> ＝ 月 ＿＿＿＿＿＿ 円<br>✎ <b>B. 遺族年金の目安 ＝ A × 3/4（Aに0.75を掛ける）</b> ＝ 月 ＿＿＿＿＿＿ 円<br>✎ <b>C. 妻自身の年金（基礎＋自分の厚生年金）</b> ＝ 月 ＿＿＿＿＿＿ 円<br>✎ <b>D. ひとりになった後の年金の目安 ＝ B ＋ C</b> ＝ 月 ＿＿＿＿＿＿ 円</p></div>
+<p>物差し：<b>Dは「ふたりの合計」の6割前後</b>に落ち着く家庭が多い（夫=会社勤め・妻=専業の型）。<br>ひとり暮らしのシニアの平均支出は<b>月15万ほど</b>（総務省・家計調査2025）。<br><b>Dが15万を下回るなら、その差が「今から備える金額」</b>だ。</p>
+<p>⚠️ <b>共働きだった妻（自分にも厚生年金の2階がある人）</b>は、Bがそのまま乗らない（動画の<b>継ぎ足し方式</b>）。<br>その場合は下の式で出す：<br>✎ <b>E. 夫の2階÷2 ＋ 妻の2階÷2</b> ＝ 月 ＿＿＿＿＿＿ 円<br>✎ <b>D'. ひとりになった後の目安 ＝「BとEの大きいほう」＋ 妻の基礎年金</b> ＝ 月 ＿＿＿＿＿＿ 円<br>（遺族年金の欄が小さく出ても損ではない＝自分の年金が先に出ているだけ。合計D'で見ること）<br>⚠️ ご主人が<b>ずっと自営業</b>（厚生年金なし）の家は、この年金の対象外＝別の備えが必要。<br>⚠️ 夫が<b>繰下げで増やした分</b>は、遺族年金の計算には乗らない（元の額で計算される）。<br>⚠️ ここで出るのはあくまで<b>目安</b>。正確な見込額は、ねんきんダイヤルで教えてもらえる（下の台本を使う）。</p>
+<hr>
+<h2>✅ 「その日」の手続き3つ——チェック表</h2>
+<figure class="illust small"><img src="../img/2026-07-15b/tetsuduki.png" alt="書類とはんこ" loading="lazy"></figure>
+<div class="check"><p><b>□ ① 年金を止める（死亡の届け）</b><br>マイナンバーが年金機構に登録済みなら<b>原則不要</b>（多くの人は済んでいる）。<br>不安なら電話で「死亡の届けは必要ですか」と聞けばよい。</p></div>
+<div class="check"><p><b>□ ② 「最後の月まで」の年金を受け取る（未支給年金）</b><br>年金は<b>2ヶ月に1回の後払い</b>。だから<b>亡くなった月の分まで</b>、家族が請求して受け取れる。<br>一緒に暮らしていた家族が対象。<b>これは知らないと丸ごと置き忘れる</b>。</p></div>
+<div class="check"><p><b>□ ③ 遺族厚生年金を請求する（年金事務所・予約制）</b><br><b>申請しないと1円も出ない</b>。さかのぼれるのは<b>5年分まで</b>＝それより前は時効で消える。<br>合言葉は動画のとおり――<b>「落ち着いたら、まず年金」</b>（四十九日が済んだら年金、でもよい）。</p></div>
+<hr>
+<h2>📞 電話ひとこと台本</h2>
+<p>かける前に<b>基礎年金番号</b>（年金手帳・ねんきん定期便に記載）を手元に。</p>
+<table><tr><th>確かめたいこと</th><th>かける先</th><th>最初のひとこと</th></tr><tr><td>遺族年金の見込額</td><td>ねんきんダイヤル <b>0570-05-1165</b></td><td>「<b>遺族年金の見込みを知りたいです</b>」</td></tr><tr><td>手続きの相談・請求</td><td>年金事務所の予約 <b>0570-05-4890</b></td><td>「<b>遺族年金の相談で、予約をお願いします</b>」</td></tr></table>
+<p>⚠️ 0570は通話料がかかる。受付時間＝ねんきんダイヤル：月8:30-19:00／火〜金8:30-17:15／第2土曜9:30-16:00。</p>
+<hr>
+<h2>🍂 動画では話していないおまけ——「遺族年金の給付金」</h2>
+<p>遺族年金にも、<b>年金生活者支援給付金</b>（月5,620円・2026年度）の遺族版がある。<br>対象は<b>遺族基礎年金を受けている人</b>（＝主に18歳の年度末までの子がいる遺族）で、<br>前年所得が一定以下の場合。シニア夫婦の死別では対象外のことが多いが、<br><b>お子さん・お孫さん世代に万一があった時のため</b>に、名前だけ覚えておいてほしい。<b>これも申請制</b>だ。<br>さらに動画の通り、遺族年金は<b>「収入」の計算に入らない</b>——だから<br>住民税非課税向けの給付金や、医療・介護の軽減と<b>両立できる</b>家庭が多い。<br>「うちは対象か？」もねんきんダイヤルのついでに聞いてしまうのが早い。</p>
+<hr>
+<p>数字は2026年度（令和8年度）の額と平均の目安。受給の可否・金額は加入記録・家族構成で異なる。<br>正確な金額は日本年金機構（ねんきんダイヤル・年金事務所）で確認してほしい。</p></article><a class="back" href="../index.html">← 特典ライブラリ一覧へ</a><footer>本ページは公式LINEの登録者限定だ。URLの転載は控えてくれ。<br>
+本資料は教育目的の一般的情報で、保険料・税金の額は自治体・世帯構成・前年の所得で変わる。<br>
+実際の金額と手続きは、届いた通知書と市区町村の窓口・年金事務所・税務署で確認してほしい。</footer>
+</div></body></html>
