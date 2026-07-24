@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ja"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>わが家の相続 手順シート（渡す→遺す→分ける の順番でわかる）</title>
+<style>
+:root{--green:#3c6b1d;--green-deep:#2c4f15;--wood:#8a5a2b;--bg:#faf7ef;--card:#ffffff;--text:#2b2416;
+--muted:#84775e;--border:#e5dcc6;--shadow:0 1px 4px rgba(60,45,10,.08);}
+*{box-sizing:border-box;margin:0;padding:0;}
+html{font-size:17px;}
+body{background:var(--bg);color:var(--text);line-height:1.95;
+font-family:"Hiragino Kaku Gothic ProN","Yu Gothic Medium","Yu Gothic","Meiryo",sans-serif;}
+.wrap{max-width:680px;margin:0 auto;padding:0 18px 64px;}
+header.site{text-align:center;padding:26px 0 18px;border-bottom:2px solid var(--green);margin-bottom:8px;}
+header.site h1{font-size:1.35rem;color:var(--green-deep);letter-spacing:.12em;font-weight:800;}
+header.site p{color:var(--muted);font-size:.82rem;margin-top:4px;letter-spacing:.1em;}
+a{color:var(--green-deep);}
+.lead{color:var(--muted);font-size:.92rem;margin:20px 2px 6px;}
+.month{font-size:.95rem;color:var(--green-deep);margin:26px 2px 4px;font-weight:bold;
+border-left:4px solid var(--green);padding-left:10px;}
+.card{display:block;background:var(--card);border:1px solid var(--border);border-radius:12px;
+margin:12px 0;text-decoration:none;box-shadow:var(--shadow);overflow:hidden;}
+a.card:active{background:#f3f7ea;}
+.cardthumb{width:100%;aspect-ratio:16/9;object-fit:cover;display:block;
+background:#e9e3d2;border-bottom:1px solid var(--border);}
+.cardbody{padding:16px 18px;}
+.card .date{color:var(--muted);font-size:.8rem;letter-spacing:.06em;}
+.card h2{color:var(--text);font-size:1.12rem;margin:6px 0 6px;line-height:1.6;}
+.card .video{color:var(--muted);font-size:.84rem;display:block;}
+figure.vthumb{margin:14px 0 8px;}
+figure.vthumb img{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:12px;
+border:1px solid var(--border);}
+.badge{display:inline-block;font-size:.74rem;font-weight:bold;padding:3px 12px;border-radius:999px;
+margin-left:8px;vertical-align:middle;}
+.badge.live{background:#e7f3dd;color:#3c6b1d;}
+.badge.closed{background:#ececec;color:#8a8a8a;}
+.badge.limited{background:#fdeeca;color:#93610a;}
+article h1{color:var(--green-deep);font-size:1.35rem;margin:26px 0 8px;line-height:1.6;font-weight:800;}
+article h2{color:var(--green-deep);font-size:1.1rem;margin:32px 0 12px;
+border-left:4px solid var(--green);padding-left:12px;}
+article p{margin:14px 0;}
+article hr{border:none;border-top:1px solid var(--border);margin:28px 0;}
+article table{width:100%;border-collapse:collapse;margin:16px 0;font-size:.95rem;background:var(--card);}
+article th,article td{border:1px solid var(--border);padding:10px 12px;text-align:left;}
+article th{background:#edf3e2;color:var(--green-deep);}
+article ul{margin:14px 0 14px 22px;}
+.check{background:var(--card);border:1px solid var(--border);border-left:5px solid var(--green);
+border-radius:10px;padding:16px 18px;margin:14px 0;box-shadow:var(--shadow);}
+.check p{margin:0;}
+.fill{background:#fffdf5;border:1px dashed var(--wood);border-radius:10px;
+padding:16px 18px;margin:14px 0;}
+.fill p{margin:0;line-height:2.3;}
+figure.illust{margin:18px auto 6px;text-align:center;}
+figure.illust img{max-width:min(300px,72%);height:auto;}
+figure.illust.wide img{max-width:100%;border-radius:12px;border:1px solid var(--border);}
+figure.illust.small img{max-width:140px;}
+figure.illust figcaption{color:var(--muted);font-size:.8rem;margin-top:2px;}
+.sign{display:flex;align-items:center;gap:14px;justify-content:flex-end;margin-top:22px;}
+.sign img{width:84px;height:auto;}
+.sign p{margin:0;color:var(--muted);font-size:.9rem;text-align:right;}
+ol.steps{margin:14px 0 14px 4px;list-style:none;counter-reset:st;}
+ol.steps li{counter-increment:st;position:relative;padding:8px 0 8px 52px;margin:6px 0;}
+ol.steps li::before{content:counter(st);position:absolute;left:0;top:6px;width:36px;height:36px;
+border-radius:50%;background:var(--green);color:#fff;font-weight:bold;text-align:center;line-height:36px;}
+.meta{color:var(--muted);font-size:.8rem;margin-top:6px;}
+.back{display:inline-block;margin:30px 0 0;color:var(--muted);font-size:.9rem;}
+.lockbox{background:var(--card);border:2px dashed var(--green);border-radius:14px;
+text-align:center;padding:44px 22px;margin:30px 0;}
+.lockbox .lockicon{font-size:2.4rem;}
+.lockbox p{margin:12px 0 0;font-size:1.02rem;}
+footer{margin-top:48px;padding-top:18px;border-top:1px solid var(--border);
+color:var(--muted);font-size:.76rem;text-align:center;letter-spacing:.05em;}
+</style>
+</head><body><div class="wrap">
+<header class="site"><h1>🦉 老後資金の止まり木</h1><p>公式LINE限定・特典のとまり木</p></header>
+<article><h1>🎁 わが家の相続 手順シート（渡す→遺す→分ける の順番でわかる）</h1><p class="meta">2026-07-24 ｜ 対象動画: 【相続の落とし穴】財産が少ない家ほど“もめる”…生前贈与「7年ルール」と今やる3つ【基礎控除・生命保険】 <span class="badge live">配布中</span></p><figure class="vthumb"><img src="../img/thumb/2026-07-24b.jpg" alt="対象動画のサムネイル" loading="lazy"></figure><figure class="illust"><img src="../img/2026-07-24b/present.png|small" alt="プレゼント" loading="lazy"><figcaption>相続は「お金持ちの話」ではない。家庭裁判所でもめた家の<b>約76%が、遺産5,000万円以下</b>（令和6年）。理由は、<b>現金は割れても、家は半分に割れない</b>から。だが、生きている今なら、打てる手が3つある。</figcaption></figure>
+<p>よく来たな。約束の物を渡す。<br>この1枚は、<b>「渡す→遺す→分ける」の順番</b>で、今やることが分かる手順シートだ。むずかしい税金の話は要らない——<b>順番どおりに、上から一つずつ</b>でいい。</p>
+<hr>
+<h2>手順①　渡す——生前贈与は「早めに・毎年」</h2>
+<ol class="steps"><li><b>渡すなら、元気なうちから毎年コツコツ</b>——あわてて駆け込みで渡すほど、後で「足し戻し」に当たる。</li><li><b>「7年ルール」を知っておく</b>——亡くなる前<b>7年以内</b>（2024年から順次3年→7年へ延長中）に渡した贈与は、相続財産に<b>足し戻される</b>＝駆け込みは効かない。</li><li><b>まとまって渡すなら「相続時精算課税」も検討</b>——この制度を選ぶと、<b>年110万円ぶんは足し戻されない</b>。ただし<b>一度選ぶと元に戻せない</b>ので、税務署か税理士に相談してから。</li></ol>
+<hr>
+<h2>手順②　遺す——現金のまま置かず「保険のかたち」に</h2>
+<figure class="illust"><img src="../img/2026-07-24b/hanko.png|small" alt="ハンコ" loading="lazy"><figcaption>同じお金でも、<b>置きかた</b>で税のかかり方が変わる。</figcaption></figure>
+<div class="check"><p><b>□ まず「ここまで無税」の線＝基礎控除を知る</b></p></div>
+<table><tr><th>法定相続人</th><th>基礎控除（ここまで無税）</th></tr><tr><td>1人</td><td>3,600万円</td></tr><tr><td>2人</td><td>4,200万円</td></tr><tr><td>3人</td><td>4,800万円</td></tr></table>
+<p>（計算式は「<b>3,000万円＋600万円×人数</b>」。たとえば相続人2人で遺産5,000万円なら、はみ出た<b>800万円</b>に税がかかる）</p>
+<div class="check"><p><b>□ 使う予定のない現金は「保険のかたち」に</b><br>　→ 死亡保険金は<b>500万円×人数</b>まで<b>非課税</b>。しかもこの枠は<b>基礎控除とは別枠</b>——両方使える。受取人を渡したい人に指定すれば、その人へ直接届く。</p></div>
+<hr>
+<h2>手順③　分ける——「誰に・何を」を先に紙に</h2>
+<ol class="steps"><li><b>「誰に・何を」を、生きているうちに紙に残す</b>——割れない家・土地こそ、先に決めておく。</li><li><b>分けた「なぜ」の気持ちも、一筆そえる</b>——金額より、この一言がもめごとを防ぐ。</li><li><b>自筆の遺言は「形式が命」</b>——日付・署名・押印など、形式を外すと無効になる。不安なら専門家（公正証書遺言）に。</li></ol>
+<figure class="illust"><img src="../img/2026-07-24b/kenka.png|small" alt="もめる家族" loading="lazy"><figcaption>もめる正体は「割れないもの」。<b>現金は分けられても、自宅は半分にできない</b>。だから、元気な今、家族で一度話しておくことが、いちばんの相続対策だ。</figcaption></figure>
+<hr>
+<h2>覚えておく数字（この4つだけ）</h2>
+<table><tr><th>数字</th><th>意味</th></tr><tr><td><b>7年</b></td><td>亡くなる前この期間の生前贈与は相続財産に足し戻される（3年→7年へ延長中）</td></tr><tr><td><b>3,000万＋600万×人数</b></td><td>基礎控除（ここまで無税）。1人3,600万・2人4,200万・3人4,800万</td></tr><tr><td><b>500万×人数</b></td><td>生命保険金の非課税枠（基礎控除とは<b>別枠</b>）</td></tr><tr><td><b>約76%</b></td><td>家裁でもめた家のうち、遺産5,000万円以下の割合（令和6年）</td></tr></table>
+<hr>
+<h2>🎁 おまけ（動画では話していない）——「精算課税」を選ぶ前のチェック</h2>
+<p>相続時精算課税は便利だが、<b>選ぶ前に確かめること</b>がある。</p>
+<ol class="steps"><li><b>一度選ぶと、暦年贈与（毎年110万の非課税）に戻せない</b>——「今年だけ」のつもりで選ばない。</li><li><b>贈与する人ごとに選ぶ</b>——父からは精算課税、母からは暦年、という使い分けはできる。</li><li><b>少額を毎年こまめに渡す家は、暦年のままが有利なことも</b>——「まとめて大きく渡したい」家に向く制度だ。迷ったら、渡す前に税務署か税理士へ一言。</li></ol>
+<hr>
+<p>相続は、<b>早めに・かたちを整えて・分け方を先に</b>。<br>生前贈与は7年に気をつけ、現金は保険の非課税枠を使う。「誰に何を」を紙に残せば、税金と争いから、遺すお金を<b>そっくり</b>守れる。</p></article><a class="back" href="../index.html">← 特典ライブラリ一覧へ</a><footer>本ページは公式LINEの登録者限定だ。URLの転載は控えてくれ。<br>
+本資料は教育目的の一般的情報で、保険料・税金の額は自治体・世帯構成・前年の所得で変わる。<br>
+実際の金額と手続きは、届いた通知書と市区町村の窓口・年金事務所・税務署で確認してほしい。</footer>
+</div></body></html>

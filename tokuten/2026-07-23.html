@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ja"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>新NISA 3つの罠チェックシート（買う前に3つ自問するだけ）</title>
+<style>
+:root{--green:#3c6b1d;--green-deep:#2c4f15;--wood:#8a5a2b;--bg:#faf7ef;--card:#ffffff;--text:#2b2416;
+--muted:#84775e;--border:#e5dcc6;--shadow:0 1px 4px rgba(60,45,10,.08);}
+*{box-sizing:border-box;margin:0;padding:0;}
+html{font-size:17px;}
+body{background:var(--bg);color:var(--text);line-height:1.95;
+font-family:"Hiragino Kaku Gothic ProN","Yu Gothic Medium","Yu Gothic","Meiryo",sans-serif;}
+.wrap{max-width:680px;margin:0 auto;padding:0 18px 64px;}
+header.site{text-align:center;padding:26px 0 18px;border-bottom:2px solid var(--green);margin-bottom:8px;}
+header.site h1{font-size:1.35rem;color:var(--green-deep);letter-spacing:.12em;font-weight:800;}
+header.site p{color:var(--muted);font-size:.82rem;margin-top:4px;letter-spacing:.1em;}
+a{color:var(--green-deep);}
+.lead{color:var(--muted);font-size:.92rem;margin:20px 2px 6px;}
+.month{font-size:.95rem;color:var(--green-deep);margin:26px 2px 4px;font-weight:bold;
+border-left:4px solid var(--green);padding-left:10px;}
+.card{display:block;background:var(--card);border:1px solid var(--border);border-radius:12px;
+margin:12px 0;text-decoration:none;box-shadow:var(--shadow);overflow:hidden;}
+a.card:active{background:#f3f7ea;}
+.cardthumb{width:100%;aspect-ratio:16/9;object-fit:cover;display:block;
+background:#e9e3d2;border-bottom:1px solid var(--border);}
+.cardbody{padding:16px 18px;}
+.card .date{color:var(--muted);font-size:.8rem;letter-spacing:.06em;}
+.card h2{color:var(--text);font-size:1.12rem;margin:6px 0 6px;line-height:1.6;}
+.card .video{color:var(--muted);font-size:.84rem;display:block;}
+figure.vthumb{margin:14px 0 8px;}
+figure.vthumb img{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:12px;
+border:1px solid var(--border);}
+.badge{display:inline-block;font-size:.74rem;font-weight:bold;padding:3px 12px;border-radius:999px;
+margin-left:8px;vertical-align:middle;}
+.badge.live{background:#e7f3dd;color:#3c6b1d;}
+.badge.closed{background:#ececec;color:#8a8a8a;}
+.badge.limited{background:#fdeeca;color:#93610a;}
+article h1{color:var(--green-deep);font-size:1.35rem;margin:26px 0 8px;line-height:1.6;font-weight:800;}
+article h2{color:var(--green-deep);font-size:1.1rem;margin:32px 0 12px;
+border-left:4px solid var(--green);padding-left:12px;}
+article p{margin:14px 0;}
+article hr{border:none;border-top:1px solid var(--border);margin:28px 0;}
+article table{width:100%;border-collapse:collapse;margin:16px 0;font-size:.95rem;background:var(--card);}
+article th,article td{border:1px solid var(--border);padding:10px 12px;text-align:left;}
+article th{background:#edf3e2;color:var(--green-deep);}
+article ul{margin:14px 0 14px 22px;}
+.check{background:var(--card);border:1px solid var(--border);border-left:5px solid var(--green);
+border-radius:10px;padding:16px 18px;margin:14px 0;box-shadow:var(--shadow);}
+.check p{margin:0;}
+.fill{background:#fffdf5;border:1px dashed var(--wood);border-radius:10px;
+padding:16px 18px;margin:14px 0;}
+.fill p{margin:0;line-height:2.3;}
+figure.illust{margin:18px auto 6px;text-align:center;}
+figure.illust img{max-width:min(300px,72%);height:auto;}
+figure.illust.wide img{max-width:100%;border-radius:12px;border:1px solid var(--border);}
+figure.illust.small img{max-width:140px;}
+figure.illust figcaption{color:var(--muted);font-size:.8rem;margin-top:2px;}
+.sign{display:flex;align-items:center;gap:14px;justify-content:flex-end;margin-top:22px;}
+.sign img{width:84px;height:auto;}
+.sign p{margin:0;color:var(--muted);font-size:.9rem;text-align:right;}
+ol.steps{margin:14px 0 14px 4px;list-style:none;counter-reset:st;}
+ol.steps li{counter-increment:st;position:relative;padding:8px 0 8px 52px;margin:6px 0;}
+ol.steps li::before{content:counter(st);position:absolute;left:0;top:6px;width:36px;height:36px;
+border-radius:50%;background:var(--green);color:#fff;font-weight:bold;text-align:center;line-height:36px;}
+.meta{color:var(--muted);font-size:.8rem;margin-top:6px;}
+.back{display:inline-block;margin:30px 0 0;color:var(--muted);font-size:.9rem;}
+.lockbox{background:var(--card);border:2px dashed var(--green);border-radius:14px;
+text-align:center;padding:44px 22px;margin:30px 0;}
+.lockbox .lockicon{font-size:2.4rem;}
+.lockbox p{margin:12px 0 0;font-size:1.02rem;}
+footer{margin-top:48px;padding-top:18px;border-top:1px solid var(--border);
+color:var(--muted);font-size:.76rem;text-align:center;letter-spacing:.05em;}
+</style>
+</head><body><div class="wrap">
+<header class="site"><h1>🦉 老後資金の止まり木</h1><p>公式LINE限定・特典のとまり木</p></header>
+<article><h1>🎁 新NISA 3つの罠チェックシート（買う前に3つ自問するだけ）</h1><p class="meta">2026-07-23 ｜ 対象動画: 【退職金は要注意】新NISA、まとまったお金でやってはいけない「3つの買い方」…知らずにやると資産が溶ける <span class="badge live">配布中</span></p><figure class="vthumb"><img src="../img/thumb/2026-07-23.jpg" alt="対象動画のサムネイル" loading="lazy"></figure><figure class="illust"><img src="../img/2026-07-23/karappo.png|small" alt="溶けた財布" loading="lazy"><figcaption>退職金のような<b>まとまったお金</b>は、入れ方をひとつ間違えると、ふやすはずが、まず<b>溶ける</b>。新NISAは器としては良い——<b>非課税で持てる上限は1人1,800万円</b>。問題は「器」でなく、<b>買い方</b>のほうだ。</figcaption></figure>
+<p>よく来たな。約束の物を渡す。<br>この1枚は、<b>買う前に3つ自問するだけ</b>のチェックシートだ。窓口や広告で何かを勧められた時、この3つを心の中で唱えてから決めればいい。<b>ひとつでも「はい」が危ないサイン</b>だ。</p>
+<hr>
+<h2>罠① 「一度に全額」入れていないか</h2>
+<div class="check"><p><b>□ いま、まとまったお金を《一度に全部》入れようとしている</b><br>　→ 上がり続ければ一括が有利なこともある。だが<b>使う時期が近いお金</b>まで全額入れて谷が来ると、こわくなって<b>底値で売って</b>しまう。それが一番の損だ。</p></div>
+<p><b>直し方</b></p>
+<ul><li><b>すぐ使うお金</b>は、そもそも入れない</li><li>残りも<b>何回かに分けて</b>、入れる時期をずらす</li><li>自分が<b>夜ぐっすり眠れる</b>配分にする</li></ul>
+<hr>
+<h2>罠② 「毎月お金が入る」に釣られていないか</h2>
+<div class="check"><p><b>□ 《毎月分配型》など「毎月お金が入る」商品に心が動いている</b><br>　→ 年金みたいで安心に見える。だが多くは、<b>自分の元本を取り崩して配っているだけ</b>（タコ足）。しかも新NISAの<b>つみたて枠・成長枠では、そもそも対象外</b>にされている。</p></div>
+<figure class="illust"><img src="../img/2026-07-23/yukidaruma.png|small" alt="雪だるま" loading="lazy"><figcaption>いちばんの損は<b>複利が消える</b>こと。雪だるまは、転がすほど大きくなる。だが<b>毎月タネを抜けば、いつまでも大きくならない</b>。</figcaption></figure>
+<p><b>直し方</b></p>
+<ul><li>ふやす間は<b>分配を出さない</b>投信で、複利をきかせる</li><li>お金が要るなら<b>自分のタイミング</b>で少しずつ取り崩す</li><li>「毎月自動で」より「<b>必要な時に自分で</b>」</li></ul>
+<hr>
+<h2>罠③ 「流行り」に全部賭けていないか</h2>
+<div class="check"><p><b>□ 話題の《レバレッジ型・テーマ型・1つの国》に、まとめて乗ろうとしている</b><br>　→ レバレッジ型は上げも下げも<b>2倍・3倍</b>。「みんな話題」の時は、もう<b>高値</b>のことも多い。なけなしの退職金で乗るのは危険だ。</p></div>
+<figure class="illust"><img src="../img/2026-07-23/tsumeawase.png|small" alt="世界の詰め合わせ" loading="lazy"><figcaption>しかも、<b>半分に減ったら、元に戻すには2倍</b>にしないといけない。落ちるのは一瞬、戻すのは大仕事だ。</figcaption></figure>
+<p><b>直し方</b></p>
+<ul><li>土台は<b>全世界株か全米株</b>の低コスト投信を<b>1本</b></li><li>それだけで<b>世界中に分散</b>＝当てものにしない</li><li>流行りは、余ったお金で<b>ごく少し</b>なら可</li></ul>
+<hr>
+<h2>覚えておく数字（この4つだけ）</h2>
+<table><tr><th>数字</th><th>意味</th></tr><tr><td><b>1,800万円</b></td><td>新NISAで<b>非課税</b>で持てる上限（1人）。器は十分大きい</td></tr><tr><td><b>2倍・3倍</b></td><td>レバレッジ型の値動き。上げも下げも増幅される</td></tr><tr><td><b>半分→2倍</b></td><td>半値になったら、戻すには2倍必要（下げの傷は深い）</td></tr><tr><td><b>対象外</b></td><td>毎月分配型は新NISA（つみたて・成長）で買えない＝国の判断</td></tr></table>
+<hr>
+<h2>🎁 おまけ（動画では話していない）——退職金の「入れる順番」の考え方</h2>
+<p>まとまったお金は、<b>入れる順番</b>で気持ちが全然ちがう。</p>
+<ol class="steps"><li><b>まず「使う予定」を分ける</b>——2〜3年以内に使うお金は、投資に回さず現金で置く（これが心の余裕になる）。</li><li><b>次に「土台」を時間で分けて入れる</b>——残りを、たとえば十数回に分けて毎月。高値づかみ一撃を避ける。</li><li><b>最後に「遊び」はごく少し</b>——流行りに乗りたい気持ちは、余ったお金の範囲で。土台には手をつけない。</li></ol>
+<p>順番は「<b>守り→土台→遊び</b>」。逆にやると、遊びで土台を溶かす。</p>
+<hr>
+<p>蓄えは、<b>あわてて全部入れない</b>ほど、長く残る。<br>低コストの分散を、時間をずらして。毎月の分配金にも、流行りにも、釣られるな。</p></article><a class="back" href="../index.html">← 特典ライブラリ一覧へ</a><footer>本ページは公式LINEの登録者限定だ。URLの転載は控えてくれ。<br>
+本資料は教育目的の一般的情報で、保険料・税金の額は自治体・世帯構成・前年の所得で変わる。<br>
+実際の金額と手続きは、届いた通知書と市区町村の窓口・年金事務所・税務署で確認してほしい。</footer>
+</div></body></html>

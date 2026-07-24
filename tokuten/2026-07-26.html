@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ja"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>老後資金の止まり木 特典ライブラリ</title>
+<style>
+:root{--green:#3c6b1d;--green-deep:#2c4f15;--wood:#8a5a2b;--bg:#faf7ef;--card:#ffffff;--text:#2b2416;
+--muted:#84775e;--border:#e5dcc6;--shadow:0 1px 4px rgba(60,45,10,.08);}
+*{box-sizing:border-box;margin:0;padding:0;}
+html{font-size:17px;}
+body{background:var(--bg);color:var(--text);line-height:1.95;
+font-family:"Hiragino Kaku Gothic ProN","Yu Gothic Medium","Yu Gothic","Meiryo",sans-serif;}
+.wrap{max-width:680px;margin:0 auto;padding:0 18px 64px;}
+header.site{text-align:center;padding:26px 0 18px;border-bottom:2px solid var(--green);margin-bottom:8px;}
+header.site h1{font-size:1.35rem;color:var(--green-deep);letter-spacing:.12em;font-weight:800;}
+header.site p{color:var(--muted);font-size:.82rem;margin-top:4px;letter-spacing:.1em;}
+a{color:var(--green-deep);}
+.lead{color:var(--muted);font-size:.92rem;margin:20px 2px 6px;}
+.month{font-size:.95rem;color:var(--green-deep);margin:26px 2px 4px;font-weight:bold;
+border-left:4px solid var(--green);padding-left:10px;}
+.card{display:block;background:var(--card);border:1px solid var(--border);border-radius:12px;
+margin:12px 0;text-decoration:none;box-shadow:var(--shadow);overflow:hidden;}
+a.card:active{background:#f3f7ea;}
+.cardthumb{width:100%;aspect-ratio:16/9;object-fit:cover;display:block;
+background:#e9e3d2;border-bottom:1px solid var(--border);}
+.cardbody{padding:16px 18px;}
+.card .date{color:var(--muted);font-size:.8rem;letter-spacing:.06em;}
+.card h2{color:var(--text);font-size:1.12rem;margin:6px 0 6px;line-height:1.6;}
+.card .video{color:var(--muted);font-size:.84rem;display:block;}
+figure.vthumb{margin:14px 0 8px;}
+figure.vthumb img{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:12px;
+border:1px solid var(--border);}
+.badge{display:inline-block;font-size:.74rem;font-weight:bold;padding:3px 12px;border-radius:999px;
+margin-left:8px;vertical-align:middle;}
+.badge.live{background:#e7f3dd;color:#3c6b1d;}
+.badge.closed{background:#ececec;color:#8a8a8a;}
+.badge.limited{background:#fdeeca;color:#93610a;}
+article h1{color:var(--green-deep);font-size:1.35rem;margin:26px 0 8px;line-height:1.6;font-weight:800;}
+article h2{color:var(--green-deep);font-size:1.1rem;margin:32px 0 12px;
+border-left:4px solid var(--green);padding-left:12px;}
+article p{margin:14px 0;}
+article hr{border:none;border-top:1px solid var(--border);margin:28px 0;}
+article table{width:100%;border-collapse:collapse;margin:16px 0;font-size:.95rem;background:var(--card);}
+article th,article td{border:1px solid var(--border);padding:10px 12px;text-align:left;}
+article th{background:#edf3e2;color:var(--green-deep);}
+article ul{margin:14px 0 14px 22px;}
+.check{background:var(--card);border:1px solid var(--border);border-left:5px solid var(--green);
+border-radius:10px;padding:16px 18px;margin:14px 0;box-shadow:var(--shadow);}
+.check p{margin:0;}
+.fill{background:#fffdf5;border:1px dashed var(--wood);border-radius:10px;
+padding:16px 18px;margin:14px 0;}
+.fill p{margin:0;line-height:2.3;}
+figure.illust{margin:18px auto 6px;text-align:center;}
+figure.illust img{max-width:min(300px,72%);height:auto;}
+figure.illust.wide img{max-width:100%;border-radius:12px;border:1px solid var(--border);}
+figure.illust.small img{max-width:140px;}
+figure.illust figcaption{color:var(--muted);font-size:.8rem;margin-top:2px;}
+.sign{display:flex;align-items:center;gap:14px;justify-content:flex-end;margin-top:22px;}
+.sign img{width:84px;height:auto;}
+.sign p{margin:0;color:var(--muted);font-size:.9rem;text-align:right;}
+ol.steps{margin:14px 0 14px 4px;list-style:none;counter-reset:st;}
+ol.steps li{counter-increment:st;position:relative;padding:8px 0 8px 52px;margin:6px 0;}
+ol.steps li::before{content:counter(st);position:absolute;left:0;top:6px;width:36px;height:36px;
+border-radius:50%;background:var(--green);color:#fff;font-weight:bold;text-align:center;line-height:36px;}
+.meta{color:var(--muted);font-size:.8rem;margin-top:6px;}
+.back{display:inline-block;margin:30px 0 0;color:var(--muted);font-size:.9rem;}
+.lockbox{background:var(--card);border:2px dashed var(--green);border-radius:14px;
+text-align:center;padding:44px 22px;margin:30px 0;}
+.lockbox .lockicon{font-size:2.4rem;}
+.lockbox p{margin:12px 0 0;font-size:1.02rem;}
+footer{margin-top:48px;padding-top:18px;border-top:1px solid var(--border);
+color:var(--muted);font-size:.76rem;text-align:center;letter-spacing:.05em;}
+</style>
+</head><body><div class="wrap">
+<header class="site"><h1>🦉 老後資金の止まり木</h1><p>公式LINE限定・特典のとまり木</p></header>
+<div class="lockbox" id="locked"><div class="lockicon">🦉</div><p>この止まり木には、まだ何も置かれていない。</p><p><a href="../index.html">← 一覧へ戻る</a></p></div><div id="content" hidden><article><h1>🎁 年金 手取りまるわかりシート（書き込み式・実質いくら？）</h1><p class="meta">2026-07-26 ｜ 対象動画: 【2026年 年金また増額】満額7万円台なのに手取りは増えない？“実質は目減り”の正体と、今からの守り方 <span class="badge live">配布中</span></p><figure class="vthumb"><img src="../img/thumb/2026-07-26.jpg" alt="対象動画のサムネイル" loading="lazy"></figure><figure class="illust"><img src="../img/2026-07-26/shibomu.png|small" alt="しぼむお金" loading="lazy"><figcaption>「年金また増えた」——2026年度は<b>4年連続プラス</b>、国民年金の満額は<b>月70,608円</b>に。だが喜ぶ前に。増えたのは<b>額面だけ</b>で、<b>物価に負けて“実質”は目減り</b>している。大事なのは、<b>通帳に振り込まれる“手取り”</b>のほうだ。</figcaption></figure>
+<p>よく来たな。約束の物を渡す。<br>この1枚は、<b>あなたの振込額を書き込むだけ</b>で「実質いくらか」が見えてくる計算メモだ。数字は、<b>通帳を見ながら</b>埋めればいい。むずかしい計算はひとつもない。</p>
+<hr>
+<h2>なぜ「増えた」のに、楽にならない？</h2>
+<table><tr><th></th><th>2026年度</th></tr><tr><td>年金の増額</td><td><b>+1.9%</b></td></tr><tr><td>物価の上昇</td><td><b>+3.2%</b></td></tr><tr><td>差し引き（買う力）</td><td><b>約1.3% 目減り</b></td></tr></table>
+<figure class="illust"><img src="../img/2026-07-26/kaimono.png|small" alt="買い物袋" loading="lazy"><figcaption>年金は少しだけ上がった。だが物価はそれ以上に上がった。だから<b>同じ金額でも、買えるモノは減っている</b>。これは、現役・将来世代を守るため国がわざと伸びを抑える<b>「マクロ経済スライド」</b>（今年は<b>▲0.2%</b>分を調整）の仕組みによるものだ。</figcaption></figure>
+<hr>
+<h2>書き込みメモ①　わが家の「手取り月額」</h2>
+<figure class="illust"><img src="../img/2026-07-26/furikomi.png|small" alt="振込通知" loading="lazy"><figcaption>年金は<b>2か月に1度</b>、通帳に振り込まれる。だから「÷2」で1か月ぶんに直すのがコツだ。</figcaption></figure>
+<div class="fill"><p>✎ ① 直近の年金振込額（2か月ぶん・手取り）　＝ 　　　　　　　　円</p></div>
+<div class="fill"><p>✎ ② ①÷2＝「1か月あたりの手取り」　　　　　＝ 　　　　　　　　円/月</p></div>
+<div class="fill"><p>✎ ③ その他の毎月の収入（働いた分など）　　　＝ 　　　　　　　　円/月</p></div>
+<div class="fill"><p>✎ ④ ②＋③＝わが家の「ひと月の手取り」　　　＝ 　　　　　　　　円/月</p></div>
+<hr>
+<h2>書き込みメモ②　物価に負けない「固定費」チェック</h2>
+<p>大きく減らせるのは、毎月出ていく<b>固定費</b>。まず一つだけ見直せば、物価の上昇ぶんを取り返せることがある。</p>
+<div class="fill"><p>✎ 家賃・住居費　　＝　　　　　円　／　光熱費　＝　　　　　円</p></div>
+<div class="fill"><p>✎ 通信費（スマホ）＝　　　　　円　／　保険料　＝　　　　　円</p></div>
+<div class="fill"><p>✎ ⑤ 固定費の合計　　　　　　　　　　　　　＝ 　　　　　　　　円/月</p></div>
+<div class="fill"><p>✎ ⑥ ④手取り − ⑤固定費 ＝ 自由に使える　　＝ 　　　　　　　　円/月</p></div>
+<p><b>⑥がマイナス、または心細い</b>なら——見直しの一番手は、たいてい<b>通信費か、使っていない保険</b>だ。まずそこから一つ。</p>
+<hr>
+<h2>覚えておく数字（この4つだけ）</h2>
+<table><tr><th>数字</th><th>意味</th></tr><tr><td><b>70,608円</b></td><td>国民年金の満額（月額・2026年度）。前年から+1,300円</td></tr><tr><td><b>237,279円</b></td><td>夫婦モデル（標準）の月額。前年から+4,495円</td></tr><tr><td><b>+1.9% / +3.2%</b></td><td>年金の増額 / 物価の上昇。差し引き<b>約1.3%の目減り</b></td></tr><tr><td><b>手取り</b></td><td>見るのは額面でなく<b>通帳の振込額</b>（2か月に1度）</td></tr></table>
+<hr>
+<h2>🎁 おまけ（動画では話していない）——繰り下げ「得・損」早見</h2>
+<p>受け取りを遅らせる<b>繰り下げ</b>は、年金自体が増える強い手だ。ざっくりの目安を置いておく。</p>
+<ul><li><b>1か月遅らせるごとに+0.7%</b>、最大で受給開始を遅らせるほど額面が大きく増える。</li><li><b>長生きするほど得</b>——増えた年金を長く受け取れるほど、遅らせた分を取り返せる。おおまかな分かれ目は「<b>受け取り開始からおよそ11〜12年</b>」。</li><li><b>注意</b>——繰り下げで額面が増えると、<b>税・社会保険料の天引きも増える</b>（＝手取りは額面ほどは伸びない）。医療費の負担割合が上がる人もいる。だから「額面」でなく「<b>手取りと健康状態</b>」で決める。</li></ul>
+<p>くわしい損得は人によって変わる。迷ったら、年金事務所で「私の場合」を試算してもらうのが早い。</p>
+<hr>
+<p>年金は、額面が増えても<b>“価値”は物価に追いつかない</b>設計。<br>だから、額面に一喜一憂せず、通帳の<b>“手取り”で家計を守る</b>。「増えた」と聞いた今こそ、備えを始める合図だ。</p></article><a class="back" href="../index.html">← 特典ライブラリ一覧へ</a></div>
+<script>
+var T=1785034800000;
+var PV=new URLSearchParams(location.search).get('pv')==='4172';
+function tick(){
+  if(PV||Date.now()>=T){
+    document.getElementById('locked').hidden=true;
+    document.getElementById('content').hidden=false;
+  }else{
+    setTimeout(tick,30000);
+  }
+}
+tick();
+</script><footer>本ページは公式LINEの登録者限定だ。URLの転載は控えてくれ。<br>
+本資料は教育目的の一般的情報で、保険料・税金の額は自治体・世帯構成・前年の所得で変わる。<br>
+実際の金額と手続きは、届いた通知書と市区町村の窓口・年金事務所・税務署で確認してほしい。</footer>
+</div></body></html>
